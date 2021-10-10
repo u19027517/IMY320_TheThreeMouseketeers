@@ -1,12 +1,42 @@
 body {
-    background-color: var(--background_white);
-  }
+  background-color: var(--background_white);
+}
 
-  :root {
-    --navbar_blue: #477CC2;
-    --navbar_red: #D92714;
-    --navbar_yellow: #CFB300;
-    --background_white :#F7F7F7;
-    --white: #ffffff;
-  }
-  
+:root {
+  --navbar_blue: #477cc2;
+  --navbar_red: #d92714;
+  --navbar_yellow: #cfb300;
+  --background_white: #f7f7f7;
+  --white: #ffffff;
+}
+
+.centered_Logo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+  /* box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc; */
+}
+
+.centered_Logo > .Logo {
+
+  background-color: white;
+  padding: 10px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 5px #ccc;
+  transition: 0.5s;
+ 
+}
+.centered_Logo > .Logo:hover{
+  box-shadow: 0px 10px #ccc;
+  margin-bottom: 5px;
+}
+
+
+.centered_Logo > img
+{
+  width: 200px;
+}
