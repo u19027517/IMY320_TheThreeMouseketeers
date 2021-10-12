@@ -1,0 +1,413 @@
+body {
+  background-color: var(--background_white);
+}
+
+:root {
+  --navbar_blue: #477cc2;
+  --navbar_red: #d92714;
+  --navbar_yellow: #cfb300;
+  --background_white: #f7f7f7;
+  --white: #ffffff;
+}
+
+/*//////////////////////////////////*/
+/*////////The splash page///////////*/
+
+.centered_Logo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc; */
+}
+
+.centered_Logo > .Logo {
+  background-color: white;
+  padding: 10px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 5px #ccc;
+  transition: 0.5s;
+}
+.centered_Logo > .Logo:hover {
+  
+  box-shadow: 0px 10px #ccc;
+  margin-bottom: 5px;
+}
+
+.centered_Logo > img {
+  width: 200px;
+}
+
+/*////////The splash page///////////*/
+/*//////////////////////////////////*/
+
+/*//////////////////////////////////*/
+/*////////The navbar ///////////////*/
+
+/* .nav >a {
+  text-decoration: none;
+width: 100%;
+margin-bottom: 50px;}
+
+.navItem{
+  
+  background-color: white;
+  width: 100% !important;
+  transition: 0.5s;
+}
+
+.navItem:hover {
+ 
+  box-shadow: 0px 10px #ccc;
+  margin-bottom: 5px;
+} */
+
+.project {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.button-right {
+  color: #FFE53D;
+  position: absolute;
+  right: 15px;
+}
+
+.left-image {
+  object-fit: cover;
+  border-radius: 50%;
+  border: solid 5px #FFE53D;
+  outline: 100px solid white;
+  height: 400px;
+  width: 400px;
+}
+
+.right-image {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 400px;
+  border: solid 5px white;
+  outline: 100px solid #FFE53D;
+  width: 400px;
+}
+
+.left-card {
+  background-color: #FFFFFF;
+  position: relative;
+}
+
+.right-card {
+  background-color: #FFE53D;
+  position: relative;
+}
+
+.left-button {
+
+}
+
+.left-button:hover {
+  color: #FFE53D;
+}
+
+.project-link:hover {
+
+}
+
+.about-us-link:hover {
+
+}
+
+.store-link:hover {
+
+}
+/* 
+.store-link:hover::after {
+  width: 33.3333333333333333333333333333333%
+} */
+
+.project-link:hover::after {
+  width: 33.3333333333333333333333333333333%
+}
+
+.nav-link {
+  width: 33.3333333333333333333333333333333%
+}
+
+.store-link::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  background-color: #E67063;
+  color: transparent;
+  width: 0%;
+  content: '';
+  height: 3px;
+  transition: all 0.5s;
+}
+
+.about-us-link::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background-color: #A3BEDB;
+  color: transparent;
+  width: 0%;
+  content: '';
+  height: 3px;
+  transition: all 0.5s;
+}
+
+.project-link::after {
+  position: absolute;
+  bottom: 0;
+  left: 33.3333333333333333333333333333333333333333333333%;
+  right: 33.3333333333333333333333333333333333333333333333%;
+  margin: auto;
+  background-color: #FFE53D;
+  color: transparent;
+  width: 0%;
+  content: '';
+  height: 3px;
+  transition: all 0.5s;
+}
+
+.about-us-link:hover::after {
+  width: 33.3333333333333333333333333333333%
+}
+
+.store-link {
+
+}
+
+.about-us-link {
+
+}
+
+.project-link {
+
+}
+
+/*////////The navbar ///////////////*/
+/*//////////////////////////////////*/
+
+
+.white-card{
+  background-color: white;
+  margin: 0px 50px 0px 25px;
+}
+
+ .white-card > img {
+  
+    width:  270px;
+    height: 270px;
+    object-fit: cover;
+    padding: 20px;
+}
+
+
+.text{
+   
+  /* object-fit: cover; */
+  /* padding: 20px; */
+  /* width: 270px; */
+  text-align: center;
+  /* padding-left: 60px; */
+  width: 270px;
+  padding-left: 15%;
+  text-align: left;
+  
+  /* padding-left: 60px; */
+  /* text-align: left; */
+  /* font-size: 24px;
+  font-weight: 600;
+  color: rgb(70, 70, 70); */
+}
+
+.ItemHeading{
+  
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(70, 70, 70);
+  padding-bottom: 10px;
+}
+
+.ItemDescription {
+  
+  /* padding-left: 60px;
+  text-align: left; */
+  font-size: 16px;
+  max-width: 280px;
+ 
+  color: rgb(131, 131, 131);
+}
+
+
+
+
+
+.ItemPrice{
+  
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(70, 70, 70);
+  margin-right: 45px;
+  
+}
+
+.wrapper{
+  display: flex;
+  padding-top: 10px;
+}
+.rating img{
+ 
+  width: 20px;
+  margin: 3px;
+}
+
+.addtocart{
+  margin-top: 20px;
+  width: 100px;
+  text-align: center;
+  background-color: #E67063;
+  border-radius: 20pt;
+  transition: 0.3s;
+}
+
+.addtocart:hover{
+
+}
+
+/**** BTN No. 6 ****/
+
+.buttons-coll {
+  width: 90%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.btn-6 {
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-6 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-6:before,
+.btn-6:after {
+  position: absolute;
+  content: "";
+  height: 0%;
+  width: 2px;
+  background: #000;
+}
+.btn-6:before {
+  right: 0;
+  top: 0;
+  transition: all 0.1s ease;
+}
+.btn-6:after {
+  left: 0;
+  bottom: 0;
+  transition: all 0.1s 0.2s ease;
+}
+.btn-6:hover:before {
+  transition: all 0.1s 0.2s ease;
+  height: 100%;
+}
+.btn-6:hover:after {
+  transition: all 0.1s ease;
+  height: 100%;
+}
+.btn-6 span:before,
+.btn-6 span:after {
+  position: absolute;
+  content: "";
+  background: #000;
+}
+.btn-6 span:before {
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 2px;
+  transition: all 0.1s 0.1s ease;
+}
+.btn-6 span:after {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+}
+.btn-6 span:hover:before {
+  width: 100%;
+}
+
+
+button {
+  margin: 20px;
+}
+.custom-btn {
+  padding: 10px 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+/*///////button/////////*/
+/*//////////////////////*/
+
+
+.sidenav {
+
+  height: 80%;
+  width: 350px;
+  position: fixed;
+  z-index: 1;
+  top: 10%;
+  right: -320px;
+  background-color: #E67063;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 5%;
+  border-radius:25px;
+}
+
+
+
+.sidenav .closebtn {
+  background-image: url(../CartIcon.svg);
+  background-repeat: no-repeat;
+  width: 21px;
+  height: 28px;
+  position: relative;
+  top: 35%;
+  left: 5px;
+  font-size: 36px;
+  margin-left: 0px;
+
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
