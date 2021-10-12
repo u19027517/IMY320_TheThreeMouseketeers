@@ -13,66 +13,11 @@ html, body
     font-family: Arial, sans-serif;
     text-align: center;
 }
-/* 
-nav
-{
-    font-size: 30px;
-    
-    position: absolute;
-    
-    width: 90%;
-    height: 5%;
-    top: 0;
-    right: 5%;
-    left: 5%;
-}
-
-nav span a
-{
-    color: #777;
-    text-decoration: none;
-}
-
-nav span a:visited
-{
-    color: #777;
-    text-decoration: none;
-}
-
-nav span#au a
-{
-    color: white;
-}
-
-nav span
-{
-    position: absolute;
-    width: 30%;
-    height: 100%;
-    
-}
-
-nav span#au
-{
-    left: 5%;
-    background-color: #6F99D1;
-    color: white;
-}
-
-nav span#pr
-{
-    left: 35%;
-}
-
-nav span#st
-{
-    left: 65%;
-} */
 
 footer#foot
 {
     position: absolute;
-    top: 290%;
+    top: 310%;
     left: 5%;
     right: 5%;
     
@@ -112,11 +57,12 @@ h1#title
     font-family: YuGothic;
     
     position: absolute;
-    top: 25%;
-    left: 30%;
+    top: 30%;
+    left: 29.5%;
     
     font-size: 65px;
     font-weight: lighter;
+    color: #777;
 }
 
 h1#contactForm
@@ -124,7 +70,7 @@ h1#contactForm
     font-family: YuGothic;
     
     position: absolute;
-    top: 187.5%;
+    top: 196%;
     left: 11%;
     
     font-size: 115px;
@@ -231,7 +177,7 @@ form#form
 #absTwo
 {
     position: absolute;
-    top: 82.5%;
+    top: 90%;
     right: 9.5%;
     
     width: 40%;
@@ -276,6 +222,8 @@ form#form
     
     width: 27.5%;
     height: auto;
+    
+    border-top-right-radius: 100%;
 }
 
 #KristiPhoto
@@ -286,6 +234,8 @@ form#form
     
     width: 27.5%;
     height: auto;
+    
+    border-top-left-radius: 100%;
 }
 
 #AshPhoto
@@ -296,18 +246,27 @@ form#form
     
     width: 45%;
     height: auto;
+    
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+
+#MattPhoto:hover, #KristiPhoto:hover, #AshPhoto:hover
+{
+    cursor: pointer;
 }
 
 #MattPhoto.selected, #AshPhoto.selected, #KristiPhoto.selected
 {
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
+    
 }
 
 #MattPhoto.unselected, #AshPhoto.unselected, #KristiPhoto.unselected
 {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);  
+    filter: grayscale(100%); 
 }
 
 #MattBio, #AshBio, #KristiBio
@@ -325,6 +284,8 @@ form#form
     font-size: 24px;
     
     text-align: left;
+    
+    color: #777;
 }
 
 #MattBio.selected, #AshBio.selected, #KristiBio.selected
