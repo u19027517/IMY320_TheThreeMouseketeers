@@ -1,0 +1,338 @@
+@font-face
+{
+   font-family: 'YuGothic';
+   src: url('FONTS/yugothib.ttf');
+}
+
+html, body
+{
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+nav
+{
+    font-size: 30px;
+    
+    position: absolute;
+    
+    width: 90%;
+    height: 5%;
+    top: 0;
+    right: 5%;
+    left: 5%;
+}
+
+nav span a
+{
+    color: #777;
+    text-decoration: none;
+}
+
+nav span a:visited
+{
+    color: #777;
+    text-decoration: none;
+}
+
+nav span#au a
+{
+    color: white;
+}
+
+nav span
+{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    
+}
+
+nav span#au
+{
+    left: 5%;
+    background-color: #6F99D1;
+    color: white;
+}
+
+nav span#pr
+{
+    left: 35%;
+}
+
+nav span#st
+{
+    left: 65%;
+}
+
+footer#foot
+{
+    position: absolute;
+    top: 290%;
+    left: 5%;
+    right: 5%;
+    
+    width: 90%;
+    height: 5%;
+    
+    background-color: lightslategray;
+}
+
+#foot span
+{
+    font-size: 24px;
+    color: white;
+    width: 30%;
+}
+
+#foot span#cr
+{
+    position: absolute;
+    left: 20%;
+}
+
+#foot span#mt
+{
+    position: absolute;
+    left: 50%;
+}
+
+#foot span a
+{
+    text-decoration: none;
+    color: white;
+}
+
+h1#title
+{
+    font-family: YuGothic;
+    
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    
+    font-size: 65px;
+    font-weight: lighter;
+}
+
+h1#contactForm
+{
+    font-family: YuGothic;
+    
+    position: absolute;
+    top: 187.5%;
+    left: 11%;
+    
+    font-size: 115px;
+    font-weight: lighter; 
+    color: white;
+}
+
+form#form
+{
+    position: absolute;
+    top: 212%;
+    left: 45%;
+    
+    width: 40%;
+    
+    font-size: 36px;
+    color: #777;
+}
+
+#form .title
+{
+    float: left;
+    width: 30%;
+    text-align: right;
+    padding-right: 10px;
+    margin-right: 0;
+}
+
+#form #email
+{
+    font-size: 36px;
+    
+    width: 65%;
+    height: 10%;
+}
+
+#form #msg
+{
+    font-size: 36px;
+    
+    width: 65%;
+    height: 10%;
+}
+
+#form #sbm
+{
+    float: right;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: #6F99D1;
+    padding: 2px;
+    width: 15%;
+    color: white;
+}
+
+#absOne
+{
+    position: absolute;
+    top: 5%;
+    right: 9.5%;
+    width: 75%;
+    height: 12.5%;
+}
+
+#logo
+{
+    position: absolute;
+    top: 22%;
+    left: 41%;
+    
+    width: 20%;
+    height: auto;
+    
+    color: #777;
+    
+    opacity: 0.65;
+}
+
+#compInfo
+{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    
+    width: 45%;
+    
+    text-align: left;
+    color: #777;
+    font-size: 24px;
+}
+
+#compInfo a
+{
+    text-decoration: none;
+    color: #EEE;
+    background-color: #6F99D1;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#absTwo
+{
+    position: absolute;
+    top: 82.5%;
+    right: 9.5%;
+    
+    width: 40%;
+    height: auto;
+}
+
+#absThree
+{
+    position: absolute;
+    top: 155%;
+    right: 9.5%;
+    
+    width: 80%;
+    height: auto;
+}
+
+#absFour
+{
+    position: absolute;
+    top: 120%;
+    left: 18%;
+    
+    width: 27.5%;
+    height: auto;
+}
+
+#absFive
+{
+    position: absolute;
+    top: 120%;
+    right: 22.5%;
+    
+    width: 27.5%;
+    height: auto;
+}
+
+#MattPhoto
+{
+    position: absolute;
+    top: 116.5%;
+    left: 19%;
+    
+    width: 27.5%;
+    height: auto;
+}
+
+#KristiPhoto
+{
+    position: absolute;
+    top: 116.5%;
+    right: 23.5%;
+    
+    width: 27.5%;
+    height: auto;
+}
+
+#AshPhoto
+{
+    position: absolute;
+    top: 116%;
+    left: 25.25%;
+    
+    width: 45%;
+    height: auto;
+}
+
+#MattPhoto.selected, #AshPhoto.selected, #KristiPhoto.selected
+{
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+#MattPhoto.unselected, #AshPhoto.unselected, #KristiPhoto.unselected
+{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);  
+}
+
+#MattBio, #AshBio, #KristiBio
+{
+    position: absolute;
+    left: 17.5%;
+    top: 172.5%;
+    
+    width: 70%;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    background-color: #FFF;
+    font-size: 24px;
+    
+    text-align: left;
+}
+
+#MattBio.selected, #AshBio.selected, #KristiBio.selected
+{
+    visibility: visible;
+}
+
+#MattBio.unselected, #AshBio.unselected, #KristiBio.unselected
+{
+    visibility: hidden;
+}
