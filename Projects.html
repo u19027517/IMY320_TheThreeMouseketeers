@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+          <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
     <title>Projects</title>
     <style>
@@ -139,10 +140,6 @@
 
         }
 
-        .navbar
-        {
-            box-shadow: 0px 0px 20px 0px #EEEEEE;
-        }
 
         .carouselUnderneath
         {
@@ -158,7 +155,7 @@
     </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-white" style="z-index: 50;">
+<nav class="navbar navbar-expand-lg navbar-light bg-white" style="z-index: 50; box-shadow: 0px 0px 20px 0px #EEEEEE !important;">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -177,7 +174,7 @@
         <div class="col-7 project">
             <div style="padding-left:60px">
                 <h1 class="card-title"><b>Martin</b></h1>
-                <p class="card-text">
+                 <p class="card-text">
                     This is a 2D Platformer game called
                 Martin. It's about a little Ghost called Martin who has been forced to stay hidden from the boring folks
                 of the town Tedium. Because of these folk's extremely neutral personalities and build up resistence against paranormal
@@ -293,7 +290,7 @@
             <div style="padding-right:60px">
                 <h1 class="card-title" style="text-align: right;"><b>Adventure-IT</b></h1>
                 <p class="card-text" style="text-align: right;">Planning a group activity can be difficult. There seems to be no single app that encomposes all the functionality required. This project is a cross-platform application that you can use to plan adventures around with world by yourself or with a group of friends. Share photos from your adventures, save important documents and files, create itineraries, checklists and budgets, find your lost friends and keep track of all your travels by collecting flags for every country you visit in Adventure-IT, the future of adventure planning!</p>
-                <button type="button" class="btn btn-dark button-right">Download
+                <button type="button"  onclick="location.href='https:\/\/app.adventure-it.co.za/#/'" class="btn btn-dark button-right">Download
                 </button>
             </div>
         </div>
@@ -305,12 +302,8 @@
         <div class="col-7 project">
             <div style="padding-left:60px">
                 <h1 class="card-title"><b>Sunflower</b></h1>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <button type="button" class="btn btn-dark left-button">Watch</button>
+                <p class="card-text">A lyric video made for the song Sunflower by Post Malone and Swae Lee, made popular by the hit animated film Spider-Man: Into the Spider-Verse that was released in 2018. This song was also featured on Post Malone's third studio album, Hollywood's Bleeding. For 33 weeks, Sunflower was in the top 10 of the Billboard Top 100 chart and was even nominated for two Grammies, Record of the Year and Best Pop Duo/Group Performance. This video aims to bring the lyrics of this popular song to the forefront by using interesting lettering design and transitions.</p>
+                <button type="button" class="btn btn-dark left-button" onclick="location.href='IMAGES/D6.mp4'">Watch</button>
             </div>
         </div>
         <div class="col-5">
@@ -335,7 +328,35 @@
             </div>
         </div>
     </div>
-</div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark" style="z-index: 50; box-shadow: 0px -10px 10px 0px #EEEEEE !important;">
+        <a class="navbar-brand" href="index.html"><img src="IMAGES/Logo.png" height="50px" alt="lOGO"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-facebook" style="color:white"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-instagram" style="color:white"></i></a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-twitter" style="color:white"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-youtube" style="color:white"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-linkedin" style="color:white"></i></a>
+              </li>
+          </ul>
+          <span class="navbar-text" style="color:white">
+            Copyright © 2021. All Rights Reserved.
+          </span>
+        </div>
+      </nav>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
