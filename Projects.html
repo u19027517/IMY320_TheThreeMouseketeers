@@ -20,7 +20,7 @@
         .button-right {
             color: #FFE53D;
             position: absolute;
-            right: 15px;
+            right: 75px;
         }
 
         .left-image {
@@ -144,7 +144,17 @@
             box-shadow: 0px 0px 20px 0px #EEEEEE;
         }
 
+        .carouselUnderneath
+        {
+            position:absolute;
+            z-index: 2;
+        }
 
+
+        .carouselUnderneath:hover
+        {
+            opacity:0 !important;
+        }
     </style>
 </head>
 <body>
@@ -165,7 +175,7 @@
 <div class="card-body left-card" style="z-index: 40;">
     <div class="row">
         <div class="col-7 project">
-            <div>
+            <div style="padding-left:60px">
                 <h1 class="card-title"><b>Martin</b></h1>
                 <p class="card-text">
                     This is a 2D Platformer game called
@@ -178,9 +188,28 @@
             </div>
         </div>
         <div class="col-5">
-            <div class="d-flex justify-content-center">
-                <img src="MartinGame.png" alt="Game" class="left-image">
+            <div class="d-flex justify-content-center" id='martin'>
+                <img src="IMAGES/ProjectPics/MartinGame.png" alt="Game" class="left-image carouselUnderneath">      
+                <div id="martinCarousel" class="carousel" data-ride="carousel" data-interval="1500" style=" outline: 100px solid #FFFFFF;  border-radius: 50%;">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="IMAGES/Martin/1.jpeg" alt="Martin1" class="left-image">   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="IMAGES/Martin/2.jpeg" alt="Martin2" class="left-image">   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="IMAGES/Martin/3.jpeg" alt="Martin3" class="left-image">   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="IMAGES/Martin/4.jpeg" alt="Martin4" class="left-image">   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="IMAGES/Martin/5.jpeg" alt="Martin5" class="left-image">   
+                      </div>
+                  </div>      
             </div>
+        </div>
         </div>
     </div>
 </div>
@@ -188,12 +217,12 @@
 <div class="card-body right-card" style="z-index: 30;">
     <div class="row">
         <div class="col-5">
-            <div class="d-flex justify-content-center">
-                <img src="horrorMovie.jpg" alt="HorrorMoviePoster" class="right-image">
+            <div class="d-flex justify-content-center" id='horrorMovie'>
+                <img src="IMAGES/ProjectPics/horrorMovie.jpg" alt="HorrorMoviePoster" class="right-image">
             </div>
         </div>
         <div class="col-7 project">
-            <div>
+            <div style="padding-right:60px">
                 <h1 class="card-title" style="text-align: right;"><b>Living With Alice</b></h1>
                 <p class="card-text" style="text-align: right;">Our latest project and a short horror film, Living with Alice tells the story of the horrors of having a roommate. When a young man, Matthew, moves into a new house for university, he ends up with a new roommate that immediately starts giving him the creeps. And there's still the mystery of the local young men that keep going missing, mysteriously...</p>
                 <button type="button" class="btn btn-dark button-right">Watch
@@ -206,7 +235,7 @@
 <div class="card-body left-card" style="z-index: 20;">
     <div class="row">
         <div class="col-7 project">
-            <div>
+            <div style="padding-left:60px">
                 <h1 class="card-title"><b>Poster Title</b></h1>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -217,8 +246,8 @@
             </div>
         </div>
         <div class="col-5">
-            <div class="d-flex justify-content-center">
-                <img src="minecraft.jpg" alt="Game" class="left-image">
+            <div class="d-flex justify-content-center" id='poster'>
+                <img src="IMAGES/ProjectPics/minecraft.jpg" alt="Game" class="left-image">
             </div>
         </div>
     </div>
@@ -227,12 +256,41 @@
 <div class="card-body right-card" style="z-index: 10;">
     <div class="row">
         <div class="col-5">
-            <div class="d-flex justify-content-center">
-                <img src="adventureIT.png" alt="HorrorMoviePoster" class="right-image">
+            <div class="d-flex justify-content-center" >
+                <img src="IMAGES/ProjectPics/adventureIT.png" alt="AdventureIT" class="right-image carouselUnderneath">  
+                <div id="adventureITCarousel" class="carousel" data-ride="carousel" data-interval="1500" style=" outline: 100px solid #FFE53D;  border-radius: 50%;">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="IMAGES/adventureIT/1.png" alt="AdventureIT1" class="right-image">   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="IMAGES/adventureIT/2.png" alt="AdventureIT2" class="right-image">   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="IMAGES/adventureIT/4.png" alt="AdventureIT4" class="right-image">   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="IMAGES/adventureIT/5.png" alt="AdventureIT5" class="right-image">   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="IMAGES/adventureIT/6.png" alt="AdventureIT6" class="right-image">   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="IMAGES/adventureIT/7.png" alt="AdventureIT7" class="right-image">   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="IMAGES/adventureIT/8.png" alt="AdventureIT8" class="right-image">   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="IMAGES/adventureIT/9.png" alt="AdventureIT9" class="right-image">   
+                      </div>
+                    </div>
+                  </div>
+                 
             </div>
         </div>
         <div class="col-7 project">
-            <div>
+            <div style="padding-right:60px">
                 <h1 class="card-title" style="text-align: right;"><b>Adventure-IT</b></h1>
                 <p class="card-text" style="text-align: right;">Planning a group activity can be difficult. There seems to be no single app that encomposes all the functionality required. This project is a cross-platform application that you can use to plan adventures around with world by yourself or with a group of friends. Share photos from your adventures, save important documents and files, create itineraries, checklists and budgets, find your lost friends and keep track of all your travels by collecting flags for every country you visit in Adventure-IT, the future of adventure planning!</p>
                 <button type="button" class="btn btn-dark button-right">Download
@@ -245,7 +303,7 @@
 <div class="card-body left-card">
     <div class="row">
         <div class="col-7 project">
-            <div>
+            <div style="padding-left:60px">
                 <h1 class="card-title"><b>Sunflower</b></h1>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -256,8 +314,24 @@
             </div>
         </div>
         <div class="col-5">
-            <div class="d-flex justify-content-center">
-                <img src="Sunflower.png" alt="Game" class="left-image">
+            <div class="d-flex justify-content-center" id='sunflower'>
+                <img src="IMAGES/ProjectPics/Sunflower.png" alt="Music Video" class="left-image carouselUnderneath">
+                <div id="sunflowerCarousel" class="carousel" data-ride="carousel" data-interval="1500" style=" outline: 100px solid #FFFFFF;  border-radius: 50%;">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="IMAGES/sunflower/1.png" alt="sunflower1" class="left-image">   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="IMAGES/sunflower/2.png" alt="sunflower2" class="left-image">   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="IMAGES/sunflower/3.png" alt="sunflower3" class="left-image">   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="IMAGES/sunflower/4.png" alt="sunflower4" class="left-image">   
+                      </div>
+                  </div>      
+            </div>
             </div>
         </div>
     </div>
@@ -265,6 +339,7 @@
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
