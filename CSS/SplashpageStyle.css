@@ -21,6 +21,46 @@ body {
   
     /* box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc; */
   }
+
+  .centered_click {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    transform: translateY(4rem);
+    /* transform: rotate(50deg); */
+    animation: fade-in-move-down 10s;  
+    /* box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc; */
+    animation-iteration-count:infinite;
+  }
+
+  @keyframes fade-in-move-down {
+    0% {
+      opacity: 0;
+      transform: translateY(4rem);
+    }
+    10% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    30% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    40%{
+      opacity: 0;
+      transform: translateY(4rem);
+    }
+
+    100%{
+      opacity: 0;
+    } 
+    
+    /* 100% {
+      opacity: 0;
+      transform: translateY(0rem);
+    } */
+  }
   
   .centered_Logo > .Logo {
     background-color: white;
