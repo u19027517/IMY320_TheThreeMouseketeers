@@ -154,6 +154,7 @@ body {
   text-align: center;
   padding-bottom: 10px;
   transition: 0.5s;
+  margin-bottom: 60px;
   
 }
 .white-card:hover{
@@ -227,10 +228,11 @@ margin-top: 25px;
   display: flex;
   padding-top: 10px;
 }
-.rating img{
- 
-  width: 20px;
-  margin: 3px;
+
+.rating {
+ text-align: right;
+  width: 100px;
+  /* margin-right: 3px; */
 }
 
 
