@@ -278,7 +278,7 @@ margin-bottom: 10px;
 .sidenav {
 
   height: 80%;
-  width: 350px;
+  width: 360px;
   position: fixed;
   z-index: 1;
   top: 10%;
@@ -299,7 +299,7 @@ margin-bottom: 10px;
   height: 28px;
   position: relative;
   top: 35%;
-  left: 5px;
+  left: 7px;
   font-size: 36px;
   margin-left: 0px;
 
@@ -312,4 +312,31 @@ margin-bottom: 10px;
   color: #818181;
   display: block;
   transition: 0.3s;
+}
+
+#itemsAmmount{
+  visibility: hidden;
+  width: 20px;
+    border-radius: 15pt;
+    position: absolute;
+    /* height: 15px; */
+    left: 13px;
+    font-size: 10pt;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    /* right: 50px; */
+    background-color: white;
+    top: -5px;
+}
+
+.CartHeading{
+  width: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 19pt;
+    top: -60px;
+    font-weight: 500;
+    color: white;
+
 }
