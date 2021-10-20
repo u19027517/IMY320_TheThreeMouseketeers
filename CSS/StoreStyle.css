@@ -243,11 +243,11 @@ body {
 
 .sidenav {
   height: 80%;
-  width: 360px;
+  width: 400px;
   position: fixed;
   z-index: 1;
   top: 10%;
-  right: -320px;
+  right: -360px;
   background-color: #e67063;
   overflow-x: hidden;
   transition: 0.5s;
@@ -256,7 +256,7 @@ body {
 }
 
 .sidenav .closebtn {
-  background-image: url(../CartIcon.svg);
+  background-image: url(../StoreIMAGES/CartIcon.svg);
   background-repeat: no-repeat;
   width: 21px;
   height: 28px;
@@ -265,6 +265,11 @@ body {
   left: 7px;
   font-size: 36px;
   margin-left: 0px;
+
+}
+
+.closebtn:hover{
+  cursor: pointer;
 }
 
 .sidenav a {
@@ -297,24 +302,42 @@ body {
   position: relative;
   text-align: center;
   font-size: 19pt;
-  top: -60px;
-  font-weight: 500;
+  top: -70px;
+  font-weight: 400;
   color: white;
 }
 
 #cartItems {
- /* background-color: white; */
-    /* text-align: center; */
-    margin-left: 50px;
+ /*background-color: white; */
+  /* text-align: center; */
+  position: relative;
+  width: 80%;
+  margin-left: 50px;
+  /* background-color: rgba(255, 255, 255, 0.267); */
+  height: 81%;
+  overflow: scroll;
+  top: -35px;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
+#cartItems::-webkit-scrollbar {
+  display: none;
+}
+
+
+
 .CartItem{
-  width: 76%;
-    position: absolute;
+  width: 90%;
+    position: relative;
     background-color: white;
     border-radius: 20px;
+    /* height: 170px; */
     padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
+
 
 .CartItemImg img{
  
@@ -335,6 +358,11 @@ body {
 
 }
 
+#NoItems{
+  font-size: 12pt !important;
+  font-weight: 200 !important;
+  color: #ffff;
+}
 
 .cartDelete{
   margin-top: 5px;
