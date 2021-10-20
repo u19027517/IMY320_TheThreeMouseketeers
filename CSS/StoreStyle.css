@@ -224,14 +224,14 @@ body {
   padding: 5px;
   border-radius: 20px;
   width: 55%;
-  color: white;
+  color: white !important;
   font-weight: 600;
   transition: 0.5s;
 }
 
 .addtocart:hover {
   margin-top: 10px;
-  color: rgb(180, 31, 31);
+  color: rgb(0, 0, 0) !important;
   top: -10px;
   background-color: white;
   box-shadow: 0 2px 0 0 #e0b1ab; /* Border bottom */
