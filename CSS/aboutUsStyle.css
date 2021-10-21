@@ -167,6 +167,39 @@ body
     opacity: 0.65;
 }
 
+h1#title
+{
+    font-family: YuGothic;
+
+    position: absolute;
+    top: 30%;
+    left: 29.5%;
+
+    font-weight: lighter;
+    color: #777;
+}
+
+#compInfo
+{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+
+    width: 45%;
+
+    text-align: left;
+    color: #777;
+}
+
+#compInfo a
+{
+    text-decoration: none;
+    color: #EEE;
+    background-color: #6F99D1;
+    border-radius: 5px;
+    padding: 10px;
+}
+
 #compInfo p
 {
     background-color: white;
@@ -177,7 +210,9 @@ body
 {
     h1#title
     {
-        font-size: 37px;
+        top: 26%;
+        left: 9.25%;
+        font-size: 72px;
     }
 
     #compInfo
@@ -225,39 +260,6 @@ body
     {
         font-size: 18px;
     }
-}
-
-h1#title
-{
-    font-family: YuGothic;
-
-    position: absolute;
-    top: 30%;
-    left: 29.5%;
-
-    font-weight: lighter;
-    color: #777;
-}
-
-#compInfo
-{
-    position: absolute;
-    top: 40%;
-    left: 28%;
-
-    width: 45%;
-
-    text-align: left;
-    color: #777;
-}
-
-#compInfo a
-{
-    text-decoration: none;
-    color: #EEE;
-    background-color: #6F99D1;
-    border-radius: 50px;
-    padding: 10px;
 }
 
 /*===============================Section One====================================*/
@@ -349,7 +351,7 @@ h1#title
     {
         position: absolute;
         left: 15%;
-        top: 160%;
+        top: 157%;
 
         font-size: 16px;
     }
@@ -420,8 +422,8 @@ form#form
     h1#contactForm
     {
         position: absolute;
-        top: 185%;
-        left: 11%;
+        top: 183%;
+        left: 13%;
 
         font-size: 72px;
     }
@@ -562,7 +564,7 @@ form#form
 nav#foot
 {
     position: absolute;
-    top: 310%;
+    /*top: 310%;*/
     left: 0;
     right: 0;
 
@@ -597,6 +599,30 @@ nav#foot
     text-decoration: none;
     color: white;
 }*/
+
+@media only screen and (min-width: 996px)
+{
+    nav#foot
+    {
+        top: 260%;
+    } 
+}
+
+@media only screen and (min-width: 1200px)
+{
+    nav#foot
+    {
+        top: 280%;
+    }
+}
+
+@media only screen and (min-width: 1700px)
+{
+    nav#foot
+    {
+        top: 310%;
+    }
+}
 
 /*================================Footer========================================*/
 
