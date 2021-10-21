@@ -18,6 +18,11 @@ html, body
     text-align: center;
 }
 
+body
+{
+    background-color: #eee;
+}
+
 /*==============================Page Formatting=================================*/
 
 /*===============================The navbar=====================================*/
@@ -162,6 +167,12 @@ html, body
     opacity: 0.65;
 }
 
+#compInfo p
+{
+    background-color: white;
+    padding: 5px;
+}
+
 @media only screen and (min-width: 996px)
 {
     h1#title
@@ -262,6 +273,8 @@ h1#title
     height: auto;
 
     border-top-right-radius: 100%;
+    
+    transition: transform .3s ease-in-out;
 }
 
 #KristiPhoto
@@ -274,24 +287,29 @@ h1#title
     height: auto;
 
     border-top-left-radius: 100%;
+    
+    transition: transform .3s ease-in-out;
 }
 
 #AshPhoto
 {
     position: absolute;
-    top: 116%;
-    left: 25.25%;
+    top: 115%;
+    left: 25%;
 
     width: 45%;
     height: auto;
 
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
+    
+    transition: transform .3s ease-in-out;
 }
 
 #MattPhoto:hover, #KristiPhoto:hover, #AshPhoto:hover
 {
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 #MattPhoto.selected, #AshPhoto.selected, #KristiPhoto.selected
@@ -441,7 +459,7 @@ form#form
         top: 196%;
         left: 11%;
 
-        font-size: 72px;
+        font-size: 86px;
     }
 
     form#form
@@ -541,25 +559,26 @@ form#form
 /*==============================Section Three===================================*/
 
 /*================================Footer========================================*/
-footer#foot
+nav#foot
 {
     position: absolute;
     top: 310%;
-    left: 5%;
-    right: 5%;
+    left: 0;
+    right: 0;
 
-    width: 90%;
-    height: 5%;
+    width: 100%;
+    margin: 0;
+    /*height: 5%;
 
-    background-color: lightslategray;
+    background-color: lightslategray;*/
 }
 
-#foot span
+/*#foot span
 {
     font-size: 24px;
     color: white;
     width: 30%;
-}
+}*/
 
 #foot span#cr
 {
@@ -573,11 +592,11 @@ footer#foot
     left: 50%;
 }
 
-#foot span a
+/*#foot span a
 {
     text-decoration: none;
     color: white;
-}
+}*/
 
 /*================================Footer========================================*/
 
@@ -589,6 +608,8 @@ footer#foot
     right: 9.5%;
     width: 75%;
     height: 12.5%;
+    
+    z-index: -999;
 }
 
 #absTwo
@@ -599,6 +620,8 @@ footer#foot
 
     width: 40%;
     height: auto;
+    
+    z-index: -999;
 }
 
 #absThree
@@ -609,6 +632,8 @@ footer#foot
 
     width: 80%;
     height: auto;
+    
+    z-index: -999;
 }
 
 #absFour
