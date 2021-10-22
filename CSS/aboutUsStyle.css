@@ -245,6 +245,25 @@ h1#title
     }
 }
 
+@media only screen and (min-width: 1312px)
+{
+   h1#title
+    {
+        left: 13.25%;
+        font-size: 86px;
+    }
+
+    #compInfo
+    {
+        font-size: 18px;
+    }
+
+    #compInfo a
+    {
+        font-size: 16px;
+    } 
+}
+
 @media only screen and (min-width: 1700px) and (min-height: 660px)
 {
     h1#title
@@ -393,6 +412,28 @@ h1#title
     }
 }
 
+@media only screen and (min-width: 1313px) and (min-height:660px)
+{
+   #MattPhoto, #KristiPhoto
+    {
+        top: 107.5%;
+    }
+    
+    #AshPhoto
+    {
+        top: 106.5%;
+    }
+    
+    #MattBio, #AshBio, #KristiBio
+    {
+        position: absolute;
+        left: 16%;
+        top: 157%;
+
+        font-size: 18px;
+    } 
+}
+
 @media only screen and (min-width: 1700px) and (min-height: 660px)
 {
     #MattPhoto, #KristiPhoto
@@ -459,6 +500,28 @@ h1#title
     }
 }
 
+@media only screen and (min-width: 1312px) and (min-height: 768px)
+{
+    #MattPhoto, #KristiPhoto
+    {
+        top: 101%;
+    }
+    
+    #AshPhoto
+    {
+        top: 100%;
+    }
+    
+    #MattBio, #AshBio, #KristiBio
+    {
+        position: absolute;
+        left: 16%;
+        top: 144%;
+
+        font-size: 18px;
+    }
+}
+
 @media only screen and (min-width: 1700px) and (min-height: 768px)
 {
     #MattPhoto, #KristiPhoto
@@ -520,6 +583,28 @@ h1#title
         position: absolute;
         left: 16%;
         top: 132%;
+
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1312px) and (min-height: 853px)
+{
+    #MattPhoto, #KristiPhoto
+    {
+        top: 96%;
+    }
+    
+    #AshPhoto
+    {
+        top: 95%;
+    }
+    
+    #MattBio, #AshBio, #KristiBio
+    {
+        position: absolute;
+        left: 16%;
+        top: 135%;
 
         font-size: 18px;
     }
@@ -763,6 +848,42 @@ form#form
     }
 }
 
+@media only screen and (min-width: 1312px) and (min-height: 768px)
+{
+    h1#contactForm
+    {
+        position: absolute;
+        top: 164%;
+        left: 12.5%;
+
+        font-size: 86px;
+    }
+
+    form#form
+    {
+        position: absolute;
+        top: 175%;
+        left: 50%;
+
+        font-size: 24px; 
+    }
+
+    form #email
+    {
+        font-size: 24px;
+    }
+
+    form #msg
+    {
+        font-size: 24px;
+    }
+
+    form #sbm
+    {
+        font-size: 18px;
+    }
+}
+
 @media only screen and (min-width: 1700px) and (min-height: 768px)
 {
     h1#contactForm
@@ -851,6 +972,42 @@ form#form
         position: absolute;
         top: 163%;
         left: 50%;
+
+        font-size: 24px; 
+    }
+
+    form #email
+    {
+        font-size: 24px;
+    }
+
+    form #msg
+    {
+        font-size: 24px;
+    }
+
+    form #sbm
+    {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1312px) and (min-height: 853px)
+{
+    h1#contactForm
+    {
+        position: absolute;
+        top: 153%;
+        left: 12.5%;
+
+        font-size: 86px;
+    }
+
+    form#form
+    {
+        position: absolute;
+        top: 165%;
+        left: 52%;
 
         font-size: 24px; 
     }
@@ -1148,6 +1305,24 @@ nav#foot
     }
 }
 
+@media only screen and (min-height: 660px) and (min-width: 1312px)
+{
+    #absTwo
+    {
+        top: 87%;
+    }
+        
+    #absThree
+    {
+        top: 150%;
+    }
+        
+    #absFour, #absFive
+    {
+        top: 110%;
+    }
+}
+
 @media only screen and (min-height: 660px) and (min-width: 1700px)
 {
     #absTwo
@@ -1202,6 +1377,24 @@ nav#foot
     }
 }
 
+@media only screen and (min-height: 768px) and (min-width: 1312px)
+{
+    #absTwo
+    {
+        top: 81%;
+    }
+        
+    #absThree
+    {
+        top: 135%;
+    }
+        
+    #absFour, #absFive
+    {
+        top: 103%;
+    }
+}
+
 @media only screen and (min-height: 768px) and (min-width: 1700px)
 {
     #absTwo
@@ -1243,6 +1436,24 @@ nav#foot
     #absTwo
     {
         top: 80%;
+    }
+        
+    #absThree
+    {
+        top: 128%;
+    }
+        
+    #absFour, #absFive
+    {
+        top: 98%;
+    }
+}
+
+@media only screen and (min-height: 853px) and (min-width: 1312px)
+{
+    #absTwo
+    {
+        top: 76%;
     }
         
     #absThree
