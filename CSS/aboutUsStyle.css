@@ -185,7 +185,7 @@ h1#title
     top: 40%;
     left: 28%;
 
-    width: 45%;
+    width: 50%;
 
     text-align: left;
     color: #777;
@@ -230,7 +230,8 @@ h1#title
 {
     h1#title
     {
-        font-size: 53px;
+        left: 9.75%;
+        font-size: 86px;
     }
 
     #compInfo
@@ -248,7 +249,8 @@ h1#title
 {
     h1#title
     {
-        font-size: 65px;
+        left: 13.25%;
+        font-size: 115px;
     }
 
     #compInfo
@@ -345,32 +347,62 @@ h1#title
     color: #777;
 }
 
-@media only screen and (min-width: 996px)
+@media only screen and (min-width: 996px) and (min-height: 660px)
 {
+    #MattPhoto, #KristiPhoto
+    {
+        top: 100%;
+    }
+    
+    #AshPhoto
+    {
+        top: 99%;
+    }
+    
     #MattBio, #AshBio, #KristiBio
     {
         position: absolute;
         left: 15%;
-        top: 157%;
+        top: 137.5%;
 
         font-size: 16px;
     }
 }
 
-@media only screen and (min-width: 1200px)
+@media only screen and (min-width: 1200px) and (min-height: 660px)
 {
+    #MattPhoto, #KristiPhoto
+    {
+        top: 107.5%;
+    }
+    
+    #AshPhoto
+    {
+        top: 106.5%;
+    }
+    
     #MattBio, #AshBio, #KristiBio
     {
         position: absolute;
         left: 16%;
-        top: 167.5%;
+        top: 153%;
 
         font-size: 18px;
     }
 }
 
-@media only screen and (min-width: 1700px)
+@media only screen and (min-width: 1700px) and (min-height: 660px)
 {
+    #MattPhoto, #KristiPhoto
+    {
+        top: 100%;
+    }
+    
+    #AshPhoto
+    {
+        top: 99%;
+    }
+    
     #MattBio, #AshBio, #KristiBio
     {
         position: absolute;
@@ -417,12 +449,12 @@ form#form
     color: #777;
 }
 
-@media only screen and (min-width: 996px)
+@media only screen and (min-width: 996px) and (min-height: 660px)
 {
     h1#contactForm
     {
         position: absolute;
-        top: 183%;
+        top: 163.5%;
         left: 13%;
 
         font-size: 72px;
@@ -431,8 +463,8 @@ form#form
     form#form
     {
         position: absolute;
-        top: 200%;
-        left: 40%;
+        top: 175%;
+        left: 47%;
 
         font-size: 18px; 
     }
@@ -453,13 +485,13 @@ form#form
     }
 }
 
-@media only screen and (min-width: 1200px)
+@media only screen and (min-width: 1200px) and (min-height: 660px)
 {
     h1#contactForm
     {
         position: absolute;
-        top: 196%;
-        left: 11%;
+        top: 183%;
+        left: 12.5%;
 
         font-size: 86px;
     }
@@ -467,8 +499,8 @@ form#form
     form#form
     {
         position: absolute;
-        top: 212%;
-        left: 45%;
+        top: 197%;
+        left: 50%;
 
         font-size: 24px; 
     }
@@ -489,7 +521,7 @@ form#form
     }
 }
 
-@media only screen and (min-width: 1700px)
+@media only screen and (min-width: 1700px) and (min-height: 660px)
 {
     h1#contactForm
     {
@@ -680,6 +712,42 @@ nav#foot
 
     width: 27.5%;
     height: auto;
+}
+
+@media only screen and (min-height: 660px) and (min-width: 996px)
+{
+    #absTwo
+    {
+        top: 85%;
+    }
+        
+    #absThree
+    {
+        top: 135%;
+    }
+        
+    #absFour, #absFive
+    {
+        top: 102%;
+    }
+}
+
+@media only screen and (min-height: 660px) and (min-width: 1200px)
+{
+    #absTwo
+    {
+        top: 90%;
+    }
+        
+    #absThree
+    {
+        top: 150%;
+    }
+        
+    #absFour, #absFive
+    {
+        top: 110%;
+    }
 }
 
 /*===========================Background Images==================================*/
