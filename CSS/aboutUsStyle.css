@@ -226,7 +226,7 @@ h1#title
     }
 }
 
-@media only screen and (min-width: 1200px)
+@media only screen and (min-width: 1182px)
 {
     h1#title
     {
@@ -245,7 +245,7 @@ h1#title
     }
 }
 
-@media only screen and (min-width: 1700px)
+@media only screen and (min-width: 1700px) and (min-height: 660px)
 {
     h1#title
     {
@@ -255,6 +255,8 @@ h1#title
 
     #compInfo
     {
+        top: 45%;
+        
         font-size: 24px;
     }
 
@@ -369,7 +371,7 @@ h1#title
     }
 }
 
-@media only screen and (min-width: 1200px) and (min-height: 660px)
+@media only screen and (min-width: 1182px) and (min-height: 660px)
 {
     #MattPhoto, #KristiPhoto
     {
@@ -395,19 +397,151 @@ h1#title
 {
     #MattPhoto, #KristiPhoto
     {
-        top: 100%;
+        top: 135%;
     }
     
     #AshPhoto
     {
-        top: 99%;
+        top: 134%;
     }
     
     #MattBio, #AshBio, #KristiBio
     {
         position: absolute;
         left: 17.5%;
-        top: 172.5%;
+        top: 205%;
+
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 996px) and (min-height: 768px)
+{
+    #MattPhoto, #KristiPhoto
+    {
+        top: 91%;
+    }
+    
+    #AshPhoto
+    {
+        top: 90%;
+    }
+    
+    #MattBio, #AshBio, #KristiBio
+    {
+        position: absolute;
+        left: 15%;
+        top: 125%;
+
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1182px) and (min-height: 768px)
+{
+    #MattPhoto, #KristiPhoto
+    {
+        top: 101%;
+    }
+    
+    #AshPhoto
+    {
+        top: 100%;
+    }
+    
+    #MattBio, #AshBio, #KristiBio
+    {
+        position: absolute;
+        left: 16%;
+        top: 141%;
+
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1700px) and (min-height: 768px)
+{
+    #MattPhoto, #KristiPhoto
+    {
+        top: 123%;
+    }
+    
+    #AshPhoto
+    {
+        top: 123%;
+    }
+    
+    #MattBio, #AshBio, #KristiBio
+    {
+        position: absolute;
+        left: 17.5%;
+        top: 182%;
+
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 996px) and (min-height: 853px)
+{
+    #MattPhoto, #KristiPhoto
+    {
+        top: 88%;
+    }
+    
+    #AshPhoto
+    {
+        top: 87%;
+    }
+    
+    #MattBio, #AshBio, #KristiBio
+    {
+        position: absolute;
+        left: 15%;
+        top: 118%;
+
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1182px) and (min-height: 853px)
+{
+    #MattPhoto, #KristiPhoto
+    {
+        top: 96%;
+    }
+    
+    #AshPhoto
+    {
+        top: 95%;
+    }
+    
+    #MattBio, #AshBio, #KristiBio
+    {
+        position: absolute;
+        left: 16%;
+        top: 132%;
+
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1700px) and (min-height: 853px)
+{
+    #MattPhoto, #KristiPhoto
+    {
+        top: 115%;
+    }
+    
+    #AshPhoto
+    {
+        top: 114%;
+    }
+    
+    #MattBio, #AshBio, #KristiBio
+    {
+        position: absolute;
+        left: 17.5%;
+        top: 168%;
 
         font-size: 24px;
     }
@@ -485,7 +619,7 @@ form#form
     }
 }
 
-@media only screen and (min-width: 1200px) and (min-height: 660px)
+@media only screen and (min-width: 1182px) and (min-height: 660px)
 {
     h1#contactForm
     {
@@ -526,8 +660,8 @@ form#form
     h1#contactForm
     {
         position: absolute;
-        top: 196%;
-        left: 11%;
+        top: 250%;
+        left: 13%;
 
         font-size: 115px;
     }
@@ -535,8 +669,224 @@ form#form
     form#form
     {
         position: absolute;
-        top: 212%;
-        left: 45%;
+        top: 265%;
+        left: 50%;
+
+        font-size: 36px; 
+    }
+
+    form #email
+    {
+        font-size: 36px;
+    }
+
+    form #msg
+    {
+        font-size: 36px;
+    }
+
+    form #sbm
+    {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 996px) and (min-height: 768px)
+{
+    h1#contactForm
+    {
+        position: absolute;
+        top: 146%;
+        left: 11%;
+
+        font-size: 72px;
+    }
+
+    form#form
+    {
+        position: absolute;
+        top: 155%;
+        left: 47%;
+
+        font-size: 18px; 
+    }
+
+    form #email
+    {
+        font-size: 18px;
+    }
+
+    form #msg
+    {
+        font-size: 18px;
+    }
+
+    form #sbm
+    {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1182px) and (min-height: 768px)
+{
+    h1#contactForm
+    {
+        position: absolute;
+        top: 164%;
+        left: 12.5%;
+
+        font-size: 86px;
+    }
+
+    form#form
+    {
+        position: absolute;
+        top: 173%;
+        left: 50%;
+
+        font-size: 24px; 
+    }
+
+    form #email
+    {
+        font-size: 24px;
+    }
+
+    form #msg
+    {
+        font-size: 24px;
+    }
+
+    form #sbm
+    {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1700px) and (min-height: 768px)
+{
+    h1#contactForm
+    {
+        position: absolute;
+        top: 220%;
+        left: 13%;
+
+        font-size: 115px;
+    }
+
+    form#form
+    {
+        position: absolute;
+        top: 235%;
+        left: 50%;
+
+        font-size: 36px; 
+    }
+
+    form #email
+    {
+        font-size: 36px;
+    }
+
+    form #msg
+    {
+        font-size: 36px;
+    }
+
+    form #sbm
+    {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 996px) and (min-height: 853px)
+{
+    h1#contactForm
+    {
+        position: absolute;
+        top: 137%;
+        left: 12%;
+
+        font-size: 72px;
+    }
+
+    form#form
+    {
+        position: absolute;
+        top: 145%;
+        left: 47%;
+
+        font-size: 18px; 
+    }
+
+    form #email
+    {
+        font-size: 18px;
+    }
+
+    form #msg
+    {
+        font-size: 18px;
+    }
+
+    form #sbm
+    {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1182px) and (min-height: 853px)
+{
+    h1#contactForm
+    {
+        position: absolute;
+        top: 153%;
+        left: 12.5%;
+
+        font-size: 86px;
+    }
+
+    form#form
+    {
+        position: absolute;
+        top: 163%;
+        left: 50%;
+
+        font-size: 24px; 
+    }
+
+    form #email
+    {
+        font-size: 24px;
+    }
+
+    form #msg
+    {
+        font-size: 24px;
+    }
+
+    form #sbm
+    {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1700px) and (min-height: 853px)
+{
+    h1#contactForm
+    {
+        position: absolute;
+        top: 200%;
+        left: 13%;
+
+        font-size: 115px;
+    }
+
+    form#form
+    {
+        position: absolute;
+        top: 220%;
+        left: 50%;
 
         font-size: 36px; 
     }
@@ -632,7 +982,7 @@ nav#foot
     color: white;
 }*/
 
-@media only screen and (min-width: 996px)
+@media only screen and (min-width: 996px) and (min-height: 660px)
 {
     nav#foot
     {
@@ -640,7 +990,7 @@ nav#foot
     } 
 }
 
-@media only screen and (min-width: 1200px)
+@media only screen and (min-width: 1182px) and (min-height: 660px)
 {
     nav#foot
     {
@@ -648,11 +998,59 @@ nav#foot
     }
 }
 
-@media only screen and (min-width: 1700px)
+@media only screen and (min-width: 1700px) and (min-height: 660px)
 {
     nav#foot
     {
-        top: 310%;
+        top: 375%;
+    }
+}
+
+@media only screen and (min-width: 996px) and (min-height: 768px)
+{
+    nav#foot
+    {
+        top: 210%;
+    } 
+}
+
+@media only screen and (min-width: 1182px) and (min-height: 768px)
+{
+    nav#foot
+    {
+        top: 245%;
+    }
+}
+
+@media only screen and (min-width: 1700px) and (min-height: 768px)
+{
+    nav#foot
+    {
+        top: 340%;
+    }
+}
+
+@media only screen and (min-width: 996px) and (min-height: 853px)
+{
+    nav#foot
+    {
+        top: 200%;
+    } 
+}
+
+@media only screen and (min-width: 1182px) and (min-height: 853px)
+{
+    nav#foot
+    {
+        top: 230%;
+    }
+}
+
+@media only screen and (min-width: 1700px) and (min-height: 853px)
+{
+    nav#foot
+    {
+        top: 315%;
     }
 }
 
@@ -732,7 +1130,7 @@ nav#foot
     }
 }
 
-@media only screen and (min-height: 660px) and (min-width: 1200px)
+@media only screen and (min-height: 660px) and (min-width: 1182px)
 {
     #absTwo
     {
@@ -747,6 +1145,132 @@ nav#foot
     #absFour, #absFive
     {
         top: 110%;
+    }
+}
+
+@media only screen and (min-height: 660px) and (min-width: 1700px)
+{
+    #absTwo
+    {
+        top: 105%;
+    }
+        
+    #absThree
+    {
+        top: 195%;
+    }
+        
+    #absFour, #absFive
+    {
+        top: 138%;
+    }
+}
+
+@media only screen and (min-height: 768px) and (min-width: 996px)
+{
+    #absTwo
+    {
+        top: 78.5%;
+    }
+        
+    #absThree
+    {
+        top: 120%;
+    }
+        
+    #absFour, #absFive
+    {
+        top: 93%;
+    }
+}
+
+@media only screen and (min-height: 768px) and (min-width: 1182px)
+{
+    #absTwo
+    {
+        top: 83%;
+    }
+        
+    #absThree
+    {
+        top: 135%;
+    }
+        
+    #absFour, #absFive
+    {
+        top: 103%;
+    }
+}
+
+@media only screen and (min-height: 768px) and (min-width: 1700px)
+{
+    #absTwo
+    {
+        top: 97%;
+    }
+        
+    #absThree
+    {
+        top: 175%;
+    }
+        
+    #absFour, #absFive
+    {
+        top: 126%;
+    }
+}
+
+@media only screen and (min-height: 853px) and (min-width: 996px)
+{
+    #absTwo
+    {
+        top: 75%;
+    }
+        
+    #absThree
+    {
+        top: 115%;
+    }
+        
+    #absFour, #absFive
+    {
+        top: 90%;
+    }
+}
+
+@media only screen and (min-height: 853px) and (min-width: 1182px)
+{
+    #absTwo
+    {
+        top: 80%;
+    }
+        
+    #absThree
+    {
+        top: 128%;
+    }
+        
+    #absFour, #absFive
+    {
+        top: 98%;
+    }
+}
+
+@media only screen and (min-height: 853px) and (min-width: 1700px)
+{
+    #absTwo
+    {
+        top: 93%;
+    }
+        
+    #absThree
+    {
+        top: 162%;
+    }
+        
+    #absFour, #absFive
+    {
+        top: 118%;
     }
 }
 
