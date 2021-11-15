@@ -7,6 +7,22 @@
 
 /*=================================Fonts========================================*/
 
+/*=================================Animations===================================*/
+
+@keyframes fadeIn
+{
+    from{opacity: 0};
+    to{opacity: 1};
+}
+
+@keyframes fadeOut
+{
+    from{opacity: 1};
+    to{opacity: 0};
+}
+
+/*=================================Animations===================================*/
+
 /*==============================Page Formatting=================================*/
 html, body
 {
@@ -629,17 +645,29 @@ h1#title
         top: 168%;
 
         font-size: 24px;
+        
+        z-index: 100;
     }
+}
+
+#MattBio.fIn, #AshBio.fIn, #KristiBio.fIn
+{
+    animation: fadeIn 0.5s ease-in-out infinite;
+}
+
+#MattBio.fOut, #AshBio.fOut, #KristiBio.fOut
+{
+    animation: fadeOut 0.5s ease-in-out infinite;
 }
 
 #MattBio.selected, #AshBio.selected, #KristiBio.selected
 {
-    visibility: visible;
+    opacity: 1;
 }
 
 #MattBio.unselected, #AshBio.unselected, #KristiBio.unselected
 {
-    visibility: hidden;
+    opacity: 0;
 }
 
 /*===============================Section Two====================================*/
