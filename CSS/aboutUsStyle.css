@@ -206,7 +206,7 @@ h1#title
     text-align: left;
     color: #777;
     
-    padding: 15px;
+    padding: 12.5px;
 }
 
 #compInfo a
@@ -376,8 +376,7 @@ h1#title
 
     width: 70%;
 
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
 
     background-color: #FFF;
 
