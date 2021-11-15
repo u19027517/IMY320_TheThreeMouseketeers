@@ -219,7 +219,7 @@ h1#title
 #compInfo p
 {
     background-color: white;
-    padding: 5px;
+    padding: 15px;
 }
 
 @media only screen and (min-width: 996px)
