@@ -206,7 +206,7 @@ h1#title
     text-align: left;
     color: #777;
     
-    padding: 15px;
+    padding: 5px;
 }
 
 #compInfo a
@@ -221,7 +221,7 @@ h1#title
 #compInfo p
 {
     background-color: white;
-    /*padding: 5px;*/
+    padding: 15px;
 }
 
 @media only screen and (min-width: 996px)
